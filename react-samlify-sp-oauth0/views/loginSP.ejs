@@ -1,0 +1,9 @@
+<% if (!user) { %>
+<h2>Bienevenid@! Haz <a href='/saml/login'>Logueo iniciado por SP</a>.</h2>
+<% } else { %>
+<h2>Hola, <%= user.username %>.</h2>
+
+<a href='logout'>
+    Cerrar Sesión
+</a>
+<% } %>

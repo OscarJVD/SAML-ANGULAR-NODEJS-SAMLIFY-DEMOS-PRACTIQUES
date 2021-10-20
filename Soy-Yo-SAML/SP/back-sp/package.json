@@ -1,0 +1,31 @@
+{
+  "name": "soyyo",
+  "version": "1.0.0",
+  "description": "soyyo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woombat-cg-org/soy-yo_SAML2.git"
+  },
+  "author": "Oscar Javier Vargas Díaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woombat-cg-org/soy-yo_SAML2/issues"
+  },
+  "homepage": "https://github.com/woombat-cg-org/soy-yo_SAML2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "var_dump": "^1.0.5"
+  }
+}

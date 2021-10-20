@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="http://www.okta.com/exk1208x8eelhrDN3696" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDpDCCAoygAwIBAgIGAXsWtmFBMA0GCSqGSIb3DQEBCwUAMIGSMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxEzARBgNVBAMMCmdtYWlsb3NjYXIxHDAaBgkqhkiG9w0BCQEW
+DWluZm9Ab2t0YS5jb20wHhcNMjEwODA1MTQyNjM2WhcNMzEwODA1MTQyNzM2WjCBkjELMAkGA1UE
+BhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTALBgNV
+BAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRMwEQYDVQQDDApnbWFpbG9zY2FyMRwwGgYJ
+KoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+kPxplDsURwcP+4xN2d/qBpWz0xcziWlrKKKr1nHfPwqIDceZJz/wIIah3K63Q3eWpdJsMXP0RYLF
+++VuN9KKuXcwMZUICtWp3vYruF7WzojCkfFaVXtrEsTm5ZsplCI9ytY+FsgwXIYkBwH4ob+jDsEK
+6oFjuuxPU5B6/blObOvWgQXG72oXTzwcGa2RhzHM9F0VOAL3ynuciLo9yOxq7DzuKV5Vb+VBHj9l
+/amfdRnC2bBJsHHjwDK9Cfq6OFnmxux/SLbs6OEviG/FAX8NO+mkst/zwgvQ7iSpZ44u18a85ZA8
+FCMFYQQ04DYL71DJna7Y0NIUfFO9NNvmcSl0XQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBf2RXX
+PH4gavc+wHSz+v5PuiPLSld82zC6ffapnp1VU3YZSqRhuAWLIH8aiB+F02sY6EwNTlFMpcuH6pl4
+VRikWnCc07dUpQFKbLySnsOq9ZbO/GazqI9jqKDH4X4qJzBg+68zpkKgjUjxqwC/IPUefIrPOc9h
+eTidRDVqTHM+kG3uFcoJkyCw6RKIW/EXSkKgCPPkxa7yTfV9ToyFFhcAJ95rHJnpQazD2mrR2JTS
+2lN7Ov+PxtpxiN8GLrdgELs0cmunsLiwjAtFDCgZY5U3B/WR7WPyvPlmTxWd2asE6zggSAXA9yNs
+j+ruAh6iJkMSTmvpIQ2XfnGVoNmz0G6e</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gmailoscar.okta.com/app/gmailoscar_soyyotesttest50821_1/exk1208x8eelhrDN3696/sso/saml"/><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://gmailoscar.okta.com/app/gmailoscar_soyyotesttest50821_1/exk1208x8eelhrDN3696/sso/saml"/></md:IDPSSODescriptor></md:EntityDescriptor>

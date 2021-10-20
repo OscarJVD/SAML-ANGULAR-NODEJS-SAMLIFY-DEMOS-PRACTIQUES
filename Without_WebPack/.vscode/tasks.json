@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "NodeJSSP/",
+			"problemMatcher": [],
+			"label": "npm: dev - NodeJSSP",
+			"detail": "ts-node server.ts"
+		}
+	]
+}

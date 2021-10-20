@@ -1,0 +1,22 @@
+
+<div className="vh-100 system-sans-serif flex flex-column items-center justify-center">
+  <button style="border: 1px solid #aaa" className="pa3 bg-transparent ma2 br3 f6 silver-gray outline-0 pointer"
+    (click)="initRedirectRequest()">
+    Okta - redirect
+  </button>
+  <button (click)="initPostRequest()">Okta - post</button>
+  <button (click)="viewSpMetadata()">SP Metadata</button>
+  <button (click)="viewIdpMetadata()">Okta Metadata</button>
+  <!-- <button (click)="logout()">Cerrar Sesión</button> -->
+  <div className="pb2 f6 silver mv3 bb b--black-20 bw1 tc">Options</div>
+  <div>
+    <label className="cb-container f6 silver flex">
+      <span>with encryption</span>
+      <input type="checkbox" (click)="toggleEncrypted()" [checked]="samlOption.encrypted" />
+
+      <span className="checkmark"></span>
+    </label>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

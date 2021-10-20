@@ -1,0 +1,8 @@
+<form id="saml-form" method="post" action="$ENDPOINT" autocomplete="off">
+  <input type="hidden" name="SAMLRequest" id="SAMLRequest" value="$CONTEXT" />
+</form>
+<script type="text/javascript">
+  // alert(document.forms[0])
+  console.log(document.forms[0]);
+  document.forms[0].submit();
+</script>

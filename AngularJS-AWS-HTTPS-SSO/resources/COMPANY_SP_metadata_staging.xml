@@ -1,0 +1,35 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://STAGING SITE DOMAIN ROOT GOES HERE/sso/ENTITY ID PROVIDED BY SSO PROVIDER/saml20">
+  <SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIDbTCCAlWgAwIBAg... SPECIFIC CERT SNIPPED THIS WILL BE PROVIDED BY THE SSO PROVIDER ...zj7Sd9nUXmFfZ3VttMzQ=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIDbTCCAlWgAwIBAg... SPECIFIC CERT SNIPPED THIS WILL BE PROVIDED BY THE SSO PROVIDER ...zj7Sd9nUXmFfZ3VttMzQ=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://STAGING SITE DOMAIN ROOT GOES HERE/sso/logout"/>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://STAGING SITE DOMAIN ROOT GOES HERE/sso/logout"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+    <AssertionConsumerService isDefault="true" index="0" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://STAGING SITE DOMAIN ROOT GOES HERE/sso/acs" />
+    <AssertionConsumerService index="1" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://STAGING SITE DOMAIN ROOT GOES HERE/sso/acs" />
+  </SPSSODescriptor>
+  <Organization>
+    <OrganizationName xml:lang="en-US">COMPANY NAME</OrganizationName>
+    <OrganizationDisplayName xml:lang="en-US">COMPANY NAME</OrganizationDisplayName>
+    <OrganizationURL xml:lang="en-US"/>
+  </Organization>
+  <ContactPerson contactType="technical">
+    <Company>COMPANY NAME</Company>
+    <GivenName/>
+    <SurName/>
+    <EmailAddress>support@companydomain.com</EmailAddress>
+    <TelephoneNumber/>
+  </ContactPerson>
+</EntityDescriptor>

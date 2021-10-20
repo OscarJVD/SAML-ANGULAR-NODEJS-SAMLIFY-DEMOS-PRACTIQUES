@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2021-08-04T17:53:12Z" cacheDuration="PT604800S" entityID="https://app.onelogin.com/saml/metadata/b641e976-9cbf-4bd8-942a-795877393ffc">
+  <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID3DCCAsSgAwIBAgIUNJOLdpzENib0bgv8uYkuBzBfHwMwDQYJKoZIhvcNAQEFBQAwRTEQMA4GA1UECgwHV29vbWJhdDEVMBMGA1UECwwMT25lTG9naW4gSWRQMRowGAYDVQQDDBFPbmVMb2dpbiBBY2NvdW50IDAeFw0yMTA3MjkxNTE2MTZaFw0yNjA3MjkxNTE2MTZaMEUxEDAOBgNVBAoMB1dvb21iYXQxFTATBgNVBAsMDE9uZUxvZ2luIElkUDEaMBgGA1UEAwwRT25lTG9naW4gQWNjb3VudCAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD2Rw4jSZXBIkuyZ4FayioeujpNjPIhlVJdh/qWwTMDkmWWCPXvFQFOjHWxsWLYPseQN+rDYEBm3f9uGtHXssbR8GOV04Ofol9MyKryRaXliJPQNZHbTA2TF0KNarnFhKOquddGUbK3/ZaHzu7ovskiHJ0swTbwaUEdU8ITB0JdS9eLCFw3BaaCHdL4JtjyRtrAaWVZyFKnKBO1RQWFOmImP5voyRR/VoehO/78H6Z2DU0j37/gzxmlw6tut26ufbR2syx1DRwZ7ojHQpTPRnBtHZsLkRSBVE65e9SFLUt8td9YO6ZYFG99tJAvhGyHzpRXNY1kLTRhNdf/xemA+rGdAgMBAAGjgcMwgcAwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUDBiay0uwDM97+iT6rJp5tu8b+QQwgYAGA1UdIwR5MHeAFAwYmstLsAzPe/ok+qyaebbvG/kEoUmkRzBFMRAwDgYDVQQKDAdXb29tYmF0MRUwEwYDVQQLDAxPbmVMb2dpbiBJZFAxGjAYBgNVBAMMEU9uZUxvZ2luIEFjY291bnQgghQ0k4t2nMQ2JvRuC/y5iS4HMF8fAzAOBgNVHQ8BAf8EBAMCB4AwDQYJKoZIhvcNAQEFBQADggEBABKOWV+I1mK0oeLUC7PHiPQPY6Ju0Vq9wh30pPw5R6ofbiyNLH6LeauQqvLXF4YCjrBW37C67p7+yAvhS1TxWFxvQgKA82jliIIPhyLMW4V7EJDyPlpGoMgZd65QjOAf9WhimlKt03cp+RpBOrdhH3DtX2cZZwajDLtPezmdtyam8xvbImb+iZOhuDptSwdu1yHLqaowYI0a+2eILnC9zWsfhb/sF6m6nHw4CY6XR6vmWRnbtFim3zI+kWoYO2rR9LlfFqgzDEFKB1gFQHa/BqbhpnqMXYjFoc7XTUHoEcGI4WTGdNUm+0Cg0uG/6baRGR5Sa1W5pqu2pCmBTPYkJGk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID3DCCAsSgAwIBAgIUNJOLdpzENib0bgv8uYkuBzBfHwMwDQYJKoZIhvcNAQEFBQAwRTEQMA4GA1UECgwHV29vbWJhdDEVMBMGA1UECwwMT25lTG9naW4gSWRQMRowGAYDVQQDDBFPbmVMb2dpbiBBY2NvdW50IDAeFw0yMTA3MjkxNTE2MTZaFw0yNjA3MjkxNTE2MTZaMEUxEDAOBgNVBAoMB1dvb21iYXQxFTATBgNVBAsMDE9uZUxvZ2luIElkUDEaMBgGA1UEAwwRT25lTG9naW4gQWNjb3VudCAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD2Rw4jSZXBIkuyZ4FayioeujpNjPIhlVJdh/qWwTMDkmWWCPXvFQFOjHWxsWLYPseQN+rDYEBm3f9uGtHXssbR8GOV04Ofol9MyKryRaXliJPQNZHbTA2TF0KNarnFhKOquddGUbK3/ZaHzu7ovskiHJ0swTbwaUEdU8ITB0JdS9eLCFw3BaaCHdL4JtjyRtrAaWVZyFKnKBO1RQWFOmImP5voyRR/VoehO/78H6Z2DU0j37/gzxmlw6tut26ufbR2syx1DRwZ7ojHQpTPRnBtHZsLkRSBVE65e9SFLUt8td9YO6ZYFG99tJAvhGyHzpRXNY1kLTRhNdf/xemA+rGdAgMBAAGjgcMwgcAwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUDBiay0uwDM97+iT6rJp5tu8b+QQwgYAGA1UdIwR5MHeAFAwYmstLsAzPe/ok+qyaebbvG/kEoUmkRzBFMRAwDgYDVQQKDAdXb29tYmF0MRUwEwYDVQQLDAxPbmVMb2dpbiBJZFAxGjAYBgNVBAMMEU9uZUxvZ2luIEFjY291bnQgghQ0k4t2nMQ2JvRuC/y5iS4HMF8fAzAOBgNVHQ8BAf8EBAMCB4AwDQYJKoZIhvcNAQEFBQADggEBABKOWV+I1mK0oeLUC7PHiPQPY6Ju0Vq9wh30pPw5R6ofbiyNLH6LeauQqvLXF4YCjrBW37C67p7+yAvhS1TxWFxvQgKA82jliIIPhyLMW4V7EJDyPlpGoMgZd65QjOAf9WhimlKt03cp+RpBOrdhH3DtX2cZZwajDLtPezmdtyam8xvbImb+iZOhuDptSwdu1yHLqaowYI0a+2eILnC9zWsfhb/sF6m6nHw4CY6XR6vmWRnbtFim3zI+kWoYO2rR9LlfFqgzDEFKB1gFQHa/BqbhpnqMXYjFoc7XTUHoEcGI4WTGdNUm+0Cg0uG/6baRGR5Sa1W5pqu2pCmBTPYkJGk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://woombatv-dev.onelogin.com/trust/saml2/http-redirect/slo/1507959"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://woombatv-dev.onelogin.com/trust/saml2/http-post/sso/b641e976-9cbf-4bd8-942a-795877393ffc" index="1"/>
+  </md:SPSSODescriptor>
+</md:EntityDescriptor>

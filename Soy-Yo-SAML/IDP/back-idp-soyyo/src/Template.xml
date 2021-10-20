@@ -1,0 +1,70 @@
+<saml2p:Response xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol"
+                 Destination=""
+                 ID=""
+                 InResponseTo=""
+                 IssueInstant=""
+                 Version="2.0"
+                 >
+    <saml2:Issuer xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"
+                  Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity"
+                  ></saml2:Issuer>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <ds:Reference URI="#id7630881441870852260582411">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <ds:DigestValue>Fx+0W1hpGFsvof6uyY+9XDQv3Z2S+6QzRb8kcBWan9w=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue></ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate></ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <saml2p:Status xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+        <saml2p:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+    </saml2p:Status>
+    <saml2:EncryptedAssertion xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+        <xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Id="_ceb726e4c59a02fbedf9a9e51ba26e33" Type="http://www.w3.org/2001/04/xmlenc#Element">
+            <xenc:EncryptionMethod xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+                                   Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+                                   />
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:RetrievalMethod Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey"
+                                    URI="#_3923ce8f8991c2b43b19caa2d7b7a964"
+                                    />
+            </ds:KeyInfo>
+            <xenc:CipherData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+                <xenc:CipherValue></xenc:CipherValue>
+            </xenc:CipherData>
+        </xenc:EncryptedData>
+        <xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+                           Id="_3923ce8f8991c2b43b19caa2d7b7a964"
+                           >
+            <xenc:EncryptionMethod xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+                                   Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"
+                                   />
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+            <xenc:CipherData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+                <xenc:CipherValue>PbfhTeBAZ5N31eypatsKkgz+3L9JIPktSFB5xV5H5nexIDbDnaO3AdRMggDMnLW58WNxnzTWO0nvH3KsiVLXOY7PFKH1Uh8SSXQVxDqCrxiTDYdKtIZTVrz3KGxdOkxrQ4dXuByCEivRRInbyuab3qaR1T6ur0ec8zFkBoYAZXUxCBSmOOkBSrNi68eHhM3OVR+BmH7x4EWeu23A2SQgzXbaEwKf9qH80T4956pGhL0INXoxsujsL7cjwB/K+RusEoHOcMTD3BLw5eUhvnu8NJrUqudcQXL8X7tjbrN66Q1GfwjIWX+fKJWeXaW6XiwDZHcHdtMkWmFTwGnr7Wtaltr8nfD80m4WoK4s0PBqKIari1aeb/EPlZeNLC7q88FYdGsEdAHLmdLQExD5E6mrwurSconFCWO4Gur1DIwVfX/vFMi9MmYeZUTXSDpZcNeEXPMRJDrEd7Tc57MxJ3rZl4sl1AH9gVYB+On1qgFZHISUilDBenpAvHz/0fLhT01DCGj0GN9osphJjLWPrtlCtHhdGPWIb/r5dV69pPEn41PlTqdLkyDwGyz9j35ivTc1xmZm+FsHtrgiEoXy3qFm4tOJgbZyAAo7dvgIRK1Wz1zAJWbQrAWHOj5UnMaFRXimm82O3MxKmjF5i5xS3rrokMFzIRjglJHjRYEcRZyTSvA=</xenc:CipherValue>
+            </xenc:CipherData>
+            <xenc:ReferenceList>
+                <xenc:DataReference URI="#_ceb726e4c59a02fbedf9a9e51ba26e33" />
+            </xenc:ReferenceList>
+        </xenc:EncryptedKey>
+    </saml2:EncryptedAssertion>
+</saml2p:Response>
+
+

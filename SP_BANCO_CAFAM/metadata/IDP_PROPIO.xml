@@ -1,0 +1,58 @@
+<EntityDescriptor ID="iAts7OA18d5imO2sSBkGN6ZNQESsFpQ1m" entityID="urn:BancoCafam:idp:WZnpGt" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+	<IDPSSODescriptor WantAuthnRequestsSigned="false" ID="iAts7OA18d5imO2sSBkGN6ZNQESsFpQ1m"
+	protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+	  <KeyDescriptor use="signing">
+		<KeyInfo Id="iAts7OA18d5imO2sSBkGN6ZNQESsFpQ1m" xmlns:ns1="http://www.w3.org/2000/09/xmldsig#">
+		  <X509Data>
+			<X509Certificate>MIIDXTCCAkWgAwIBAgIBATANBgkqhkiG9w0BAQUFADByMR4wHAYDVQQDExVodHRw
+Oi8vbG9jYWxob3N0OjMwMDYxCzAJBgNVBAYTAkNPMRMwEQYDVQQIEwpCb2dvdGEg
+RC5DMRAwDgYDVQQHEwdVc2FxdeluMQ0wCwYDVQQKEwRUZXN0MQ0wCwYDVQQLEwRU
+ZXN0MB4XDTIxMDkyODE2NDgyMFoXDTIyMDkyODE2NDgyMFowcjEeMBwGA1UEAxMV
+aHR0cDovL2xvY2FsaG9zdDozMDA2MQswCQYDVQQGEwJDTzETMBEGA1UECBMKQm9n
+b3RhIEQuQzEQMA4GA1UEBxMHVXNhcXXpbjENMAsGA1UEChMEVGVzdDENMAsGA1UE
+CxMEVGVzdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJqxD9mUXW9x
+gYaMtDvPTIBEvQ/DoG186iRRt3wO9EwnvC+X4yDkbWGKk72KkHOpNnFVdgiOOemY
+73bxiTigOBTX9068lPhLSY5pr8YsSbrxgWGmf5fW0EQ+bC4PitXLHuVWusSpsOB5
+0c4eDPcVU6Qe1p9qppxvhxTxZfQ9DY5lXmV+/q1UlSfs6h3+823lOIYeOOn8auDp
+zZyRS7KvMb3/EhpdpnxxbdPDB0gisXF5V5nOGaehlNlv1hO0+Mk/JPC3Cw89TWDx
+lPvXx2RU+iJHgA428gYpYn+QIAsSmf3jrgXnQXbqGnydRXEUn+cmSwdYv1PAQHJg
+03+zPSCjJSMCAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAl8LfOhwsSuyr7V0E4yk8
++Stf2mni62kERjDwuGOr/R5PJMUXBK0fcBjgCn923cFP1sbKmw/HIsrkprA5ztnU
+qZm7+94y334qVLVuOMB8QNqHQ3dq92d1G/ampk9iGi4l+D5RNK2WIlvOMqAE6x4r
+RLA1jBQQBUur+Fr8EcZBR0L7ZK3Quz4Gg6crbYGWLtkvrv84AWU7La5Ea0ZakMsl
+fFlFfx9Wogh5XYPj+K2C1wV61FwMKIjfTm/4a1zdFU8XhWZJ0zLEB4jYYF0UqXEz
+sE3JcGgzeMpXwpHJNpEN9hUxcG19D1H25tzlfhtc06Y77cM626EuX0D517b+/ImI
+qQ==</X509Certificate>
+		  </X509Data>
+		</KeyInfo>
+	  </KeyDescriptor>
+	  <NameIDFormat>
+		urn:oasis:names:tc:SAML:2.0:nameid-format:persistent
+	  </NameIDFormat>
+	  <NameIDFormat>
+		urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
+	  </NameIDFormat>
+	  <NameIDFormat>
+		urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+	  </NameIDFormat>
+	  <NameIDFormat>
+		urn:oasis:names:tc:SAML:2.0:nameid-format:entity
+	  </NameIDFormat>
+	  <NameIDFormat>
+		urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+	  </NameIDFormat>
+	  <NameIDFormat>
+		urn:oasis:names:tc:SAML:2.0:nameid-format:kerberos
+	  </NameIDFormat>
+	  <NameIDFormat>
+		urn:oasis:names:tc:SAML:1.1:nameid-format:WindowsDomainQualifiedName
+	  </NameIDFormat>
+	  <NameIDFormat>
+		urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName
+	  </NameIDFormat>
+	  <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:3000/login/IdO5DIB" />
+	  <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:3000/login/IdO5DIB" />
+	  <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:3000/logout/t0cDi0C" />
+	  <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:3000/logout/t0cDi0C" />
+	</IDPSSODescriptor>
+  </EntityDescriptor>

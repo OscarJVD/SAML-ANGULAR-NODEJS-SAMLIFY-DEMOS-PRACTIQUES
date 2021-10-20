@@ -1,0 +1,40 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://ENTITY ID PROVIDED BY SSO PROVIDER">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIGmDCCBYCgAwIBAg... SPECIFIC CERT SNIPPED THIS WILL BE PROVIDED BY THE SSO PROVIDER ...3UzwHcdCliBJdLEPo+OdIW</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIGmDCCBYCgAwIBAg... SPECIFIC CERT SNIPPED THIS WILL BE PROVIDED BY THE SSO PROVIDER ...3UzwHcdCliBJdLEPo+OdIW</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/>
+    </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https:// CALLBACK ADDRESS PROVIDED BY SSO PROVIDER /saml20/soap" index="0" isDefault="true"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https:// CALLBACK ADDRESS PROVIDED BY SSO PROVIDER /saml20/slo"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https:// CALLBACK ADDRESS PROVIDED BY SSO PROVIDER /saml20/slo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:encrypted</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https:// CALLBACK ADDRESS PROVIDED BY SSO PROVIDER /saml20/login"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https:// CALLBACK ADDRESS PROVIDED BY SSO PROVIDER /saml20/login"/>
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">COMPANY NAME</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">COMPANY NAME</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en"/>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:Company>COMPANY NAME</md:Company>
+    <md:GivenName/>
+    <md:SurName/>
+    <md:EmailAddress>support@companydomain.com</md:EmailAddress>
+    <md:TelephoneNumber/>
+  </md:ContactPerson>
+</md:EntityDescriptor>
